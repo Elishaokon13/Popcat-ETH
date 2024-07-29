@@ -16,7 +16,7 @@ const HeroSection = () => {
                         $POPCAT
                     </h1>
                     <Image
-                        src="/hero.PNG" // Replace with your image path
+                        src="/hero.png" // Replace with your image path
                         alt="Centered Image"
                         width={800} // Adjust width as needed
                         height={600} // Adjust height as needed

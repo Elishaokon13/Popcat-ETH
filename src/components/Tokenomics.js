@@ -22,7 +22,7 @@ const TokenomicsSection = () => {
 
                     <div className="relative flex items-center justify-center w-full mb-8">
                         <div className="relative w-48 h-48 md:w-96 md:h-96 bg-gray-800 rounded-lg shadow-lg">
-                            <Image src="/cat.PNG" alt="Center Image" layout="fill" objectFit="cover" className="rounded-lg" />
+                            <Image src="/cat.png" alt="Center Image" layout="fill" objectFit="cover" className="rounded-lg" />
 
                             {/* Top Left Card */}
                             <div className="absolute top-0 text-black left-0  transform -translate-y-1/2 -translate-x-1/2">
