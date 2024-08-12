@@ -18,8 +18,8 @@ const AboutSection = () => {
 
   return (
     <>
-      <div className="bg-cover bg-center bg-black bg-no-repeat " style={{ backgroundImage: "url('/bg.png')" }}>
-        <div className="relative min-h-screen w-full text-white p-8">
+      <div className="bg-cover mt-2 md:mt-10 bg-center bg-black bg-no-repeat " style={{ backgroundImage: "url('/bg.png')" }}>
+        {/* <div className="relative min-h-screen w-full text-white p-8"> */}
           <div className="relative text-center">
             <h1 className="text-3xl sm:text-5xl font-permanentMarker font-bold mb-8">PopCat; Another Cat that pops on ETH</h1>
             <p className="max-w-4xl font-hanaleiFill mx-auto text-lg leading-relaxed">
@@ -28,7 +28,7 @@ const AboutSection = () => {
               <br/>Together, we're unstoppable
             </p>
           </div>
-        </div>
+        {/* </div> */}
       </div>
 
     </>

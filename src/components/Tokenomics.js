@@ -31,7 +31,7 @@ const TokenomicsSection = () => {
 
                             {/* Top Right Card */}
                             <div className="absolute top-0 text-black right-0  transform -translate-y-1/2 translate-x-1/2">
-                                <StatsCard figure="5/5" description="Tax" />
+                                <StatsCard figure="0/0" description="Tax" />
                             </div>
 
                             {/* Bottom Left Card */}
@@ -47,7 +47,7 @@ const TokenomicsSection = () => {
                     </div>
 
                     <div className="mt-10 p-2 flex flex-col md:flex-row items-center justify-between font-hanaleiFill bg-white text-black rounded text-sm md:text-2xl font-bold w-full max-w-3xl">
-                        <span className="text-center md:text-left">CA: </span>
+                        <span className="text-center md:text-left">CA: 0xf07AF200A12e367788C403529A6a6ec24F8f9ae8</span>
                         {/* <button
                             onClick={handleCopy}
                             className="mt-4 md:mt-0 md:ml-4 px-4 py-2 font-hanaleiFill text-white bg-black rounded font-bold hover:bg-gray-300 hover:text-white transition-colors duration-300"

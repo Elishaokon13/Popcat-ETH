@@ -23,7 +23,7 @@ const HeroSection = () => {
                         className="mt-8"
                     />
                     <div className="mt-4 p-2 flex flex-col md:flex-row items-center justify-center font-hanaleiFill  text-white rounded text-sm md:text-2xl font-bold w-full max-w-3xl">
-                        <span className="text-center md:text-left">CA: </span>
+                        <span className="text-center md:text-left">CA: 0xf07AF200A12e367788C403529A6a6ec24F8f9ae8</span>
                     </div>
                     <div className="flex justify-center p-8">
                         <button
@@ -32,9 +32,9 @@ const HeroSection = () => {
                             Buy now
                         </button>
                     </div>
-                    <div className="flex justify-center bg-black space-x-4 md:space-x-8 pt-4">
-                        <a href="https://dexscreener.com/solana/" target="_blank" rel="noopener noreferrer">
-                            <Image src="/dexscreener.png" alt="Dexscreener" width={40} height={40} />
+                    <div className="flex justify-center space-x-4 md:space-x-8 md:mb-20 pt-4">
+                        <a href="https://dexscreener.com/ethereum/" target="_blank" rel="noopener noreferrer">
+                            <Image src="/dexscreener.png" alt="Dexscreener" width={30} height={30} />
                         </a>
                         <a href="https://x.com/popcatoneth_" target="_blank" rel="noopener noreferrer">
                             <Image src="/twitter.png" alt="Twitter" width={40} height={40} />
